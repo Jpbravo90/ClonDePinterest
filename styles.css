@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#Barra_navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    color: black;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+    z-index: 99;
+}
+
+a{
+    color: black;
+}
+
+#icono_pinterest {
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#icono_pinterest:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.notif {
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.notif:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.msg {
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.msg:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.profile {
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.profile:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.boton {
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+#input {
+    width: 58%;
+    border: none;
+    height: 47px;
+    border-radius: 25px;
+    background-color: gainsboro;
+}
+
+#input:hover {
+    background-color: lightgray;
+}
+
+#contenedor {
+    display: flex;
+    column-gap: 20px;
+    padding-left: 6%;
+    padding-top: 6%;
+}
+
+.imagen {
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.imagen:hover .ocultos{
+    opacity: 1;
+}
+
+.imagen:hover {
+    cursor: zoom-in;
+    filter: grayscale(50%);
+    z-index: 0;
+}
+
+.oculto0 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    opacity: 0;
+}
+
+.oculto0:hover {
+    visibility: visible;
+    cursor: pointer;
+    background-color: rgb(159, 11, 11);
+}
+
+.oculto1 {
+    position: absolute;
+    bottom: 30px;
+    right: 55px;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.oculto1:hover {
+    visibility: visible;
+    cursor: pointer;
+    background-color: white;
+}
+
+.oculto2 {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.oculto2:hover {
+    visibility: visible;
+    cursor: pointer;
+    background-color: white;
+}
